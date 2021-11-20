@@ -1,0 +1,6 @@
+package com.criszx17dev.animated
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
