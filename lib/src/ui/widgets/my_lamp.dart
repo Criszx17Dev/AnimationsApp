@@ -21,19 +21,17 @@ class MyLamp extends StatelessWidget {
 class _CustomClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
-    final path = Path();
-    path.moveTo(size.width * 0.475, 0);
-    path.lineTo(size.width * 0.475, size.height * 0.7);
-    path.quadraticBezierTo(
-        size.width * 0.15, size.height * 0.7, 0, size.height * 0.9);
-    path.lineTo(size.width * 0.2, size.height * 0.9);
-    path.quadraticBezierTo(
-        size.width * 0.5, size.height, size.width * 0.8, size.height * 0.9);
-    path.lineTo(size.width, size.height * 0.9);
-    path.quadraticBezierTo(size.width * 0.85, size.height * 0.7,
-        size.width * 0.525, size.height * 0.7);
-    path.lineTo(size.width * 0.525, 0);
-    return path;
+    final width = size.width;
+    final height = size.height;
+    return Path()
+      ..moveTo(width * 0.475, 0)
+      ..lineTo(width * 0.475, height * 0.7)
+      ..quadraticBezierTo(width * 0.15, height * 0.7, 0, height * 0.9)
+      ..lineTo(width * 0.2, height * 0.9)
+      ..quadraticBezierTo(width * 0.5, height, width * 0.8, height * 0.9)
+      ..lineTo(width, height * 0.9)
+      ..quadraticBezierTo(width * 0.85, height * 0.7, width * 0.525, height * 0.7)
+      ..lineTo(width * 0.525, 0);
   }
 
   @override
