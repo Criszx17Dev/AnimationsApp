@@ -1,16 +1,6 @@
-# animated
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Animated
+<p align="center"> 
+<a >
+  <img height=350 src="https://user-images.githubusercontent.com/80471939/142784862-6cebc53b-5148-41f7-851e-c14725851fea.gif"> 
+  </a>
+</p>
