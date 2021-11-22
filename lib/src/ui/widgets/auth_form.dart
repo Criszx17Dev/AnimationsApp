@@ -14,7 +14,7 @@ class AuthForm extends StatelessWidget {
           color: Colors.white,
           boxShadow: const [
             BoxShadow(
-                blurRadius: 8, color: Colors.black45, offset: Offset(0, 7))
+                blurRadius: 2, color: Colors.black38, offset: Offset(0, 2))
           ]),
       height: MediaQuery.of(context).size.height * 0.2,
       child: Column(

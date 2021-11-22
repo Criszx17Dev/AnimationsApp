@@ -36,12 +36,12 @@ class _MyForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
-        children: const [
-          AuthForm(),
-          SizedBox(height: 35),
-          CustomButton(),
-          SizedBox(height: 35),
-          MyTextButton(),
+        children: [
+          const AuthForm(),
+          const SizedBox(height: 35),
+          CustomButton(onTap: () {}, title: 'Login'),
+          const SizedBox(height: 35),
+          const MyTextButton(),
         ],
       ),
     );
